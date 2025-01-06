@@ -9,4 +9,36 @@ import Footer from "./Components/Footer";
 
 const Stack = createStackNavigator();
 
-export default function App() {}
+export default function App() {
+  return (
+    <NavigationContainer>
+      <Stack.Navigator initialRouteName="LoginScreen">
+        <Stack.Screen
+          name="LoginScreen"
+          options={{
+            headerShown: false,
+          }}
+        >
+          {({ navigation }) => (
+            <View style={styles.loginScreenContainer}>
+              <ScrollView contentContainerStyle={{ flexGrow: 1 }}>
+                <Header />
+                <Login navigation={navigation} />
+              </ScrollView>
+              <Footer style={styles.footerContainer} />
+            </View>
+          )}
+        </Stack.Screen>
+        <Stack.Screen
+          name="Home"
+          component={Home}
+          options={{
+            headerShown: false,
+            gestureEnabled: false,
+          }}
+        />
+      </Stack.Navigator>
+      <StatusBar style="auto" />
+    </NavigationContainer>
+  );
+}
