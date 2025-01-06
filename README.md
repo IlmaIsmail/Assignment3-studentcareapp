@@ -14,10 +14,7 @@ A mobile application built using React Native that allows students to sign in wi
 - How to Use  
 - Technologies  
 - Contributions  
-- License  
-- Acknowledgments  
-
----
+- Authors
 
 ## Overview
 
@@ -28,16 +25,16 @@ The Student Support App offers a secure platform for students to log in and easi
 - **Course Information**: View details about your registered courses.  
 - **Subjects Overview**: Check subject details, performance data, and grades.  
 
----
+
 
 ## Setup
 
 To set up the application on your device, follow these steps:
 
 1. **Clone the Repository**:  
-   ```bash  
-   git clone https://github.com/your-username/student-support-app.git  
-   ```  
+   
+   git clone https://github.com/your-username/studentcareapp.git  
+   
 
 2. **Navigate to the Project Directory**:  
   
@@ -71,7 +68,7 @@ To set up the application on your device, follow these steps:
 2. **Explore Features**: Use the menu to navigate between Profile, Courses, and Subjects sections.  
 3. **View Information**: Access key academic details, such as enrolled courses and subject grades, after signing in.  
 
----
+
 
 ## Technologies
 
@@ -80,7 +77,6 @@ To set up the application on your device, follow these steps:
 - **React Navigation**: Manages screen transitions and navigation within the app.  
 - **React Native Paper**: Provides reusable UI components, including buttons and text inputs.  
 
----
 
 ## Contributions
 
