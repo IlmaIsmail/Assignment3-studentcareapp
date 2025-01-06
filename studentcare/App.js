@@ -42,3 +42,14 @@ export default function App() {
     </NavigationContainer>
   );
 }
+const styles = StyleSheet.create({
+  loginScreenContainer: {
+    backgroundColor: "#fff",
+    height: "100%",
+  },
+  footerContainer: {
+    position: "absolute",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+});
